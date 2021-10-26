@@ -1230,7 +1230,7 @@ nav.custom_navbar a.header_inquiry_button i {
 }
 /*main achievements section css end*/
 
-/*breadcrumb section start*/
+/*breadcrumb section css start*/
 .breadcrumb_section {
     padding: 165px 0 100px;
     border-bottom: 1px solid #707070;
@@ -1252,9 +1252,9 @@ nav.custom_navbar a.header_inquiry_button i {
     font-family: 'A-OTF Mincho STB Bold';
     letter-spacing: 6px;
 }
-/*breadcrumb section end*/
+/*breadcrumb section css end*/
 
-/*about banner section start*/
+/*about banner section css start*/
 .inner_page_banner_section {
     background-image: url('../images/about_banner.png');
     background-repeat: no-repeat;
@@ -1270,9 +1270,9 @@ nav.custom_navbar a.header_inquiry_button i {
     font-family: 'Noto Sans CJK JP Bold';
     color: rgba(0, 0, 0, 0.30);
 }
-/*about banner section end*/
+/*about banner section css end*/
 
-/*to hold section start*/
+/*to hold section css start*/
 .to_hold_section {
     padding: 95px 0 160px;
 }
@@ -1299,9 +1299,9 @@ nav.custom_navbar a.header_inquiry_button i {
 .to_hold_contant_heading {
     margin-bottom: 40px;
 }
-/*to hold section end*/
+/*to hold section css end*/
 
-/*corporate section start*/
+/*corporate section css start*/
 .corporate_section {
     padding-bottom: 180px;
 }
@@ -1338,9 +1338,9 @@ nav.custom_navbar a.header_inquiry_button i {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/*corporate section end*/
+/*corporate section css end*/
 
-/*history banner section start*/
+/*history banner section css start*/
 .history_banner_section{
     margin-top: 45px;
 }
@@ -1348,9 +1348,9 @@ nav.custom_navbar a.header_inquiry_button i {
     width: 100%;
 }
 
-/*history banner section end*/
+/*history banner section css end*/
 
-/*showa section start*/
+/*showa section css start*/
 .showa_section {
     padding: 35px 0 200px;
 }
@@ -1387,9 +1387,9 @@ nav.custom_navbar a.header_inquiry_button i {
 .showa_image_first {
     padding-top: 16px;
 }
-/*showa section end*/
+/*showa section css end*/
 
-/*rich in variation section start*/
+/*rich in variation section css start*/
 .rich_in_variation_section {
     text-align: center;
     padding: 85px 15px 130px;
@@ -1402,15 +1402,15 @@ nav.custom_navbar a.header_inquiry_button i {
     font-size: 42px;
     padding-bottom: 0 !important;
 }
-/*rich in variation section end*/
+/*rich in variation section css end*/
 
-/*production banner section start*/
+/*production banner section css start*/
 .production_banner_section {
     margin-top: 0 !important;
 }
-/*production banner section end*/
+/*production banner section css end*/
 
-/*diamond bit and core pack section start*/
+/*diamond bit and core pack section css start*/
 .diamond_bit_and_core_pack_section {
     padding: 0 0 80px !important;
 }
@@ -1427,9 +1427,9 @@ nav.custom_navbar a.header_inquiry_button i {
     line-height: 30px;
     text-align: left;
 }
-/*diamond bit and core pack section end*/
+/*diamond bit and core pack section css end*/
 
-/*manufactured section start*/
+/*manufactured section css start*/
 .manufactured_section .custom_container {
     max-width: 1030px;
     width: 100%;
@@ -1496,9 +1496,9 @@ nav.custom_navbar a.header_inquiry_button i {
 .manufactured_table .manufactured_row .manufactured_td:first-child {
     width: 360px;
 }
-/*manufactured section end*/
+/*manufactured section css end*/
 
-/*pamphlet section start*/
+/*pamphlet section css start*/
 .pamphlet_section {
     padding: 100px 0 145px;
 }
@@ -1548,18 +1548,18 @@ nav.custom_navbar a.header_inquiry_button i {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/*pamphlet section end*/
+/*pamphlet section css end*/
 
-/*company banner section start*/
+/*company banner section css start*/
 .company_banner_section {
     margin-top: 55px;
 }
 .company_banner_section img {
     width: 100%;
 }
-/*company banner section end*/
+/*company banner section css end*/
 
-/*company profile section start*/
+/*company profile section css start*/
 .company_profile_section {
     padding: 90px 0 80px;
 }
@@ -1634,9 +1634,9 @@ nav.custom_navbar a.header_inquiry_button i {
     border-radius: 50%;
     background-color: #000;
 }
-/*company profile section end*/
+/*company profile section css end*/
 
-/*access section start*/
+/*access section css start*/
 .access_section {
     padding-bottom: 190px;
 }
@@ -1661,4 +1661,771 @@ nav.custom_navbar a.header_inquiry_button i {
 .access_map iframe {
     max-width: 100%;
 }
-/*access section end*/
+/*access section css end*/
+
+/*responsive css start*/
+@media(max-width: 1279px) {
+    a.button_blue {
+        padding: 12px 21px;
+        min-width: 240px;
+    }
+    header.site_header {
+        padding: 10px;
+    }
+    .header_logo img {
+        max-width: 180px;
+    }
+    nav.custom_navbar ul {
+        margin-right: 0px;
+    }
+    nav.custom_navbar ul li {
+        margin-right: 25px;
+    }
+    nav.custom_navbar a.header_contact_details {
+        margin-right: 15px;
+    }
+    nav.custom_navbar a.header_contact_details p {
+        font-size: 20px;
+    }
+    nav.custom_navbar a.header_contact_details p img {
+        max-width: 20px;
+        margin-right: 5px;
+    }
+    nav.custom_navbar a.header_inquiry_button {
+        min-width: 160px;
+    }
+    .home_banner_section h1 {
+        letter-spacing: 6px;
+        font-size: 36px;
+    }
+    .beautiful_land_of_japan_content h3,
+    .maid_in_japan_high_quality_section h3,
+    .used_for_multiple_purpose_section h3,
+    .product_info_section h3,
+    .header_sec h3,
+    .rich_in_variation_section h3,
+    .dominate_and_handmade_elaborate_gem_inner h3 {
+        line-height: 60px;
+        letter-spacing: 4px;
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+    .beautiful_image_container h5,
+    .dominate_and_handmade_elaborate_gem_inner .image_container h5 {
+        font-size: 24px;
+    }
+    .beautiful_land_of_japan_content h4,
+    .maid_in_japan_high_quality_section h4,
+    .used_for_multiple_purpose_section h4 {
+        font-size: 24px;
+        padding: 45px 0px 30px;
+    }
+    .beautiful_land_of_japan_content p {
+        margin-bottom: 20px;
+    }
+    .maid_in_japan_high_quality_section h4 {
+        font-size: 24px;
+        padding: 40px 0px 20px;
+    }
+    .maid_in_japan_high_quality_section p {
+        margin-bottom: 20px;
+    }
+    .strengths_of_core_pack_table_container {
+        max-width: 1080px;
+    }
+}
+@media(max-width: 1160px) {
+    .beautiful_land_of_japan_content .custom_container,
+    .maid_in_japan_high_quality_section .custom_container,
+    .maid_in_japan_high_quality_section .custom_container,
+    .used_for_multiple_purpose_section .custom_container,
+    .product_info_section .custom_container,
+    .footer_middle .custom_container,
+    .footer_bottom .custom_container,
+    .input_form_section .custom_container,
+    .company_profile_section .custom_container,
+    .main_achievements_section .custom_container {
+        max-width: 900px;
+    }
+    .used_for_multiple_purpose_section .custom_container,
+    .footer_middle .custom_container,
+    .main_achievements_section .custom_container {
+        padding: 0px 15px;
+    }
+    .used_for_multiple_purpose_section .custom_row,
+    .footer_middle .custom_row,
+    .main_achievements_section .custom_row {
+        margin: 0px -15px;
+    }
+    .used_for_multiple_purpose_section .custom_col_6,
+    .used_for_multiple_purpose_section .custom_col_12,
+    .footer_middle .custom_col_4,
+    .main_achievements_section .custom_col_6 {
+        padding: 0px 15px;
+    }
+    .used_for_multiple_purpose_section a.button_blue {
+        margin-top: 50px;
+    }
+    .footer_middle {
+        padding: 40px 0px;
+    }
+    .line_to_youtube_and_president_room ul li a.footer_button_white {
+        padding: 10px 30px;
+        min-width: auto;
+    }
+    .beautiful_land_of_japan_section,
+    .maid_in_japan_high_quality_section,
+    .used_for_multiple_purpose_section,
+    .product_info_section,
+    .input_form_section,
+    .dominate_and_handmade_elaborate_gem_section,
+    .main_achievements_section {
+        padding: 50px 0px;
+    }
+    .strengths_of_core_pack_table_container {
+        max-width: 870px;
+        padding: 20px;
+    }
+    .strengths_of_core_pack_table_container a.button_blue {
+        margin: 25px auto auto;
+    }
+    .footer_top h2 {
+        font-size: 60px;
+    }
+    .footer_top .contact_details_call_email{
+        padding: 110px 40px;
+    }
+    .input_form_container, .questionnaire_form_container {
+        padding: 20px;
+        margin-bottom: 35px;
+    }
+    .input_field_td .width_1 {
+        max-width: 430px;
+    }
+    .input_field_td .width_2 {
+        max-width: 400px;
+    }
+    .input_field_td .width_3 {
+        max-width: 270px;
+    }
+    .input_field_td .width_4 {
+        max-width: 190px;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .text_content_with_description h5,
+    .main_achievements_section .text_content_with_description h5 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .text_content_with_description h2,
+    .main_achievements_section .text_content_with_description h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 25px;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .text_content_with_description p,
+    .main_achievements_section .text_content_with_description p {
+        line-height: 28px;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .text_col {
+        flex: 0 0 500px;
+        max-width: 500px;
+        padding: 0 40px;
+    }
+    .main_achievements_section .numaric_text h2.big_text {
+        font-size: 200px;
+        line-height: normal;
+    }
+    .main_achievements_section .numaric_text h2.small_text {
+        font-size: 120px;
+        line-height: normal;
+    }
+    .breadcrumb_section {
+        padding: 130px 0 80px;
+    }
+    .breadcrumb_section h2 {
+        font-size: 32px;
+    }
+    .inner_page_banner_section {
+        padding: 120px 15px 120px;
+        margin-top: 35px;
+    }
+    .inner_page_banner_section h3 {
+        font-size: 28px;
+    }
+    .to_hold_section {
+        padding: 75px 0 130px;
+    }
+    .to_hold_contant_heading {
+        margin-bottom: 30px;
+    }
+    .corporate_contant p {
+        margin-bottom: 40px;
+    }
+    .corporate_section {
+        padding-bottom: 140px;
+    }
+    .corporate_btns {
+        padding-top: 50px;
+    }
+    .breadcrumb_section .custom_container,
+    .showa_section .custom_container,
+    .diamond_bit_and_core_pack_section .custom_container,
+    .manufactured_section .custom_container,
+    .pamphlet_section .custom_container{
+        max-width: 900px;
+    }
+    .showa_table_th {
+        width: 120px;
+    }
+    .showa_table_th p, .showa_table_td p {
+        padding-right: 15px;
+    }
+    .showa_table_th, .showa_table_td {
+        padding: 22px 18px;
+    }
+    .showa_image_first {
+        padding-top: 15px;
+    }
+    .showa_section {
+        padding: 25px 0 160px;
+    }
+    .history_banner_section {
+        margin-top: 35px;
+    }
+    .rich_in_variation_section {
+        padding: 80px 15px 80px;
+    }
+    .diamond_bit_and_core_pack_contant p {
+        padding: 45px 0;
+    }
+    .diamond_bit_and_core_pack_section {
+        padding: 0 0 60px !important;
+    }
+    .manufactured_section .image_heading, .pamphlet_section .image_heading {
+        margin-bottom: 20px;
+    }
+    .manufactured_content_sec p {
+        margin-bottom: 20px;
+    }
+    .manufactured_table .manufactured_row .manufactured_td:first-child {
+        width: 320px;
+    }
+    .manufactured_table {
+        margin-bottom: 25px;
+    }
+    .manufactured_table_space {
+        padding-bottom: 35px;
+    }
+    .pamphlet_section .text_col {
+        flex: 0 0 calc(100% - 360px);
+        max-width: calc(100% - 360px);
+    }
+    .pamphlet_section .image_col {
+        flex: 0 0 360px;
+        max-width: 360px;
+    }
+    .pamphlet_section {
+        padding: 60px 0 105px;
+    }
+    .pamphlet_content_sec {
+        padding-bottom: 110px;
+    }
+    .corporate_contant {
+        padding-bottom: 85px;
+    }
+    .company_profile_content p {
+        margin-bottom: 30px;
+    }
+    .company_profile_content {
+        padding-bottom: 65px;
+    }
+    .company_banner_section {
+        margin-top: 40px;
+    }
+    .company_profile_section {
+        padding: 70px 0 60px;
+    }
+    .company_profile_th {
+        min-width: 150px;
+    }
+    .company_profile_table p span {
+        margin-left: 10px;
+    }
+    .access_heading {
+        margin-bottom: 20px;
+    }
+    .access_section {
+        padding-bottom: 160px;
+    }
+    .showa_table_td {
+        padding-right: 0;
+    }
+    .manufactured_td_first {
+        padding-top: 15px;
+    }
+}
+@media(max-width: 1024px) {
+    header.site_header {
+        padding: 10px 20px;
+    }
+    .header_logo img {
+        max-width: none;
+        max-height: 45px;
+    }
+    nav.custom_navbar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -300px;
+        display: block;
+        align-items: normal;
+        background-color: #fff;
+        box-shadow: 0px 3px 10px rgb(0 0 0 / 20%);
+        padding: 80px 20px 20px;
+        width: 275px;
+        max-width: 275px;
+        transition: all 0.4s;
+    }
+    nav.custom_navbar.navbar_animate {
+        right: 0;
+    }
+    nav.custom_navbar ul {
+        display: block;
+    }
+    nav.custom_navbar ul li {
+        margin: 0px 0px 30px 0px;
+    }
+    nav.custom_navbar ul li a:after {
+        right: auto;
+    }
+    nav.custom_navbar a.header_contact_details {
+        margin: 0px 0px 20px;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+    nav.custom_navbar a.header_inquiry_button {
+        min-width: 100%;
+    }
+    .common_section_title h3 {
+        font-size: 20px;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .image_col, .dominate_and_handmade_elaborate_gem_inner .text_col {
+        padding: 0px 15px;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+}
+@media(max-width: 900px) {
+    .home_banner_section h1 {
+        letter-spacing: 0;
+        font-size: 30px;
+    }
+    .beautiful_land_of_japan_section,
+    .maid_in_japan_high_quality_section,
+    .used_for_multiple_purpose_section,
+    .product_info_section,
+    .input_form_section,
+    .dominate_and_handmade_elaborate_gem_section,
+    .main_achievements_section {
+        padding: 40px 0px;
+    }
+    .beautiful_land_of_japan_content h3,
+    .maid_in_japan_high_quality_section h3,
+    .used_for_multiple_purpose_section h3,
+    .product_info_section h3,
+    .header_sec h3,
+    .rich_in_variation_section h3,
+    .dominate_and_handmade_elaborate_gem_inner h3 {
+        line-height: normal;
+        letter-spacing: 0;
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .beautiful_land_of_japan_content h4,
+    .maid_in_japan_high_quality_section h4,
+    .used_for_multiple_purpose_section h4 {
+        font-size: 20px;
+        padding: 25px 0px 15px;
+    }
+    .beautiful_image_container {
+        padding-top: 200px;
+    }
+    .beautiful_image_container h5,
+    .dominate_and_handmade_elaborate_gem_inner .image_container h5 {
+        font-size: 17px;
+        line-height: 36px;
+        padding: 5px 20px;
+    }
+    .beautiful_land_of_japan_content a.button_blue {
+        margin-top: 0px;
+    }
+    .strengths_of_core_pack_table_container {
+        max-width: calc(100% - 30px);
+        padding: 15px;
+    }
+    .strength_table_row {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #C4C4C4;
+    }
+    .strength_table_th, .strength_table_td {
+        display: block;
+        border-bottom: none;
+    }
+    .strength_table_th p, .strength_table_td p {
+        padding: 5px;
+    }
+    .footer_top .custom_col_6 {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .footer_top .contact_details_call_email{
+        padding: 110px 15px 40px;
+    }
+    .footer_top .contact_details_call_email.box_email {
+        padding-top: 40px;
+    }
+    .contact_details_call_email .text_with_white_box {
+        padding: 10px;
+        min-height: 150px;
+    }
+    .footer_middle .custom_col_4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .logo_with_text_col, .line_to_youtube_and_president_room {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo_with_text_col p {
+        padding: 20px 0px 30px;
+    }
+    .line_to_youtube_and_president_room ul li a.footer_button_white {
+        margin-right: 0px;
+    }
+    .line_to_youtube_and_president_room ul li {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .copy_right_footer {
+        padding-top: 15px;
+    }
+    .footer_main_list > li {
+        padding: 10px 0px;
+    }
+    .single_input_row {
+        display: inline-block;
+        width: 100%;
+        border-bottom: 1px dashed #C4C4C4;
+    }
+    .label_td, .input_field_td {
+        padding: 8px;
+        display: inline-block;
+        width: 100%;
+        border: none;
+    }
+    .input_field_td .width_1, .input_field_td .width_2, .input_field_td .width_3, .input_field_td .width_4 {
+        max-width: none;
+        width: 100%;
+    }
+    .input_field_td select {
+        width: 100%;
+        max-width: none;
+    }
+    .two_input_col {
+        flex: 0 0 50%;
+    }
+    .label_td p {
+        padding-left: 0px;
+        padding-right: 38px;
+        white-space: normal;
+    }
+    .label_td p img {
+        left: auto;
+        right: 0px;
+    }
+    .two_opt_inline .single_radio {
+        flex: 0 0 100%;
+    }
+    .all_opt_inline {
+        max-width: none;
+    }
+    .all_opt_inline .single_radio {
+        flex: 0 0 100%;
+    }
+    .input_form_container, .questionnaire_form_container {
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .input_form_section .text_content p {
+        margin-bottom: 20px;
+        line-height: normal;
+    }
+    .common_section_title {
+        margin-bottom: 20px;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .custom_row {
+        padding: 0px 0px 30px;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .image_col, .dominate_and_handmade_elaborate_gem_inner .text_col {
+        flex: 0 0 70%;
+        max-width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .text_content_with_description h5,
+    .main_achievements_section .text_content_with_description h5 {
+        font-size: 17px;
+        line-height: 32px;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .text_content_with_description h2,
+    .main_achievements_section .text_content_with_description h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .inner_page_maid_in_japan_section .strength_table_row {
+        border-bottom-color: #ffffff;
+    }
+    .main_achievements_section .custom_col_6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .main_achievements_section .custom_row {
+        padding: 20px 0px 0px;
+    }
+    .main_achievements_section .numaric_text h2 {
+        font-size: 80px !important;
+    }
+    .breadcrumb_section {
+        padding: 110px 0 50px;
+    }
+    .breadcrumb_section p {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .breadcrumb_section h2 {
+        font-size: 24px;
+    }
+    .inner_page_banner_section {
+        padding: 80px 15px 80px;
+        margin-top: 25px;
+    }
+    .to_hold_section {
+        padding: 55px 0 90px;
+    }
+    .to_hold_contant_heading {
+        margin-bottom: 20px;
+    }
+    .corporate_contant p {
+        margin-bottom: 25px;
+    }
+    .corporate_section {
+        padding-bottom: 100px;
+    }
+    .corporate_btns {
+        padding-top: 30px;
+    }
+    .inner_page_banner_section h3 {
+        font-size: 22px;
+    }
+    .history_banner_section {
+        margin-top: 25px;
+    }
+    .showa_table,
+    .showa_table_row,
+    .showa_table_th,
+    .showa_table_td,
+    .showa_table_image {
+        display: block;
+    }
+    .showa_table_row {
+        border-bottom: 1px solid #D3D3D3;
+    }
+    .showa_table_th {
+        width: 100%;
+    }
+    .showa_table_th, .showa_table_td {
+        padding: 5px;
+        border-bottom: none;
+    }
+    .showa_table_image img {
+        padding-top: 10px;
+        padding-right: 0;
+    }
+    .showa_table_th p, .showa_table_td p {
+        padding-right: 0px;
+    }
+    .showa_section {
+        padding: 20px 0 100px;
+    }
+    .pamphlet_btn .custom_container,
+    .corporate_btns .custom_container {
+        max-width: 600px !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pamphlet_btn .custom_container .button_blue,
+    .corporate_btns .custom_container .button_blue {
+        margin: 5px 0px;
+    }
+    .rich_in_variation_section {
+        padding: 60px 15px 60px;
+    }
+    .diamond_bit_and_core_pack_contant p {
+        padding: 35px 0;
+    }
+    .diamond_bit_and_core_pack_section {
+        padding: 0 0 40px !important;
+    }
+    .manufactured_table td,
+    .manufactured_table th {
+        display: block;
+        width: 100% !important;
+    }
+    .manufactured_table th {
+        border-bottom: none;
+    }
+    .manufactured_table td {
+        padding: 12px 15px 0 !important;
+    }
+    .manufactured_table thead tr {
+        border-bottom: 2px solid #0053B1;
+    }
+    .pamphlet_content a {
+        margin-bottom: 15px;
+        display: block;
+    }
+    .pamphlet_section {
+        padding: 40px 0 80px;
+    }
+    .pamphlet_content_sec {
+        padding-bottom: 80px;
+    }
+    .corporate_contant {
+        padding-bottom: 65px;
+    }
+    .company_profile_section {
+        padding: 50px 0 40px;
+    }
+    .company_profile_content p {
+        margin-bottom: 20px;
+    }
+    .company_profile_content {
+        padding-bottom: 45px;
+    }
+    .company_profile_row {
+        border-bottom: 1px solid #D3D3D3;
+        display: block;
+    }
+    .company_profile_table_inner .company_profile_th,
+    .company_profile_table_inner .company_profile_td {
+        padding-bottom: 0;
+    }
+    .company_profile_table_inner .company_profile_row:last-child .company_profile_th {
+        padding-top: 15px;
+    }
+    .company_profile_th, .company_profile_td {
+        display: block;
+        width: 100%;
+        border-bottom: none;
+        padding: 5px;
+    }
+    .company_profile_table p span {
+        margin-left: 10px;
+    }
+    .company_profile_table_inner .company_profile_row {
+        padding-left: 15px;
+        border: none;
+    }
+    .access_map {
+        margin-top: 20px;
+    }
+    .access_section {
+        padding-bottom: 100px;
+    }
+    .manufactured_td a span {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 675px) {
+    .beautiful_land_of_japan_content h3,
+    .maid_in_japan_high_quality_section h3,
+    .used_for_multiple_purpose_section h3,
+    .product_info_section h3,
+    .header_sec h3,
+    .rich_in_variation_section h3,
+    .dominate_and_handmade_elaborate_gem_inner h3 {
+        font-size: 20px;
+    }
+    .beautiful_land_of_japan_content h4,
+    .maid_in_japan_high_quality_section h4,
+    .used_for_multiple_purpose_section h4 {
+        font-size: 18px;
+    }
+    .used_for_multiple_purpose_section .custom_col_6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
+    .product_info_table_row {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #E3E3E3;
+    }
+    .product_info_table_th, .product_info_table_td {
+        display: inline-block;
+        width: 100%;
+        border-bottom: none;
+        padding: 5px 20px;
+    }
+    .two_input_col {
+        flex: 0 0 100%;
+        padding: 8px 8px 0px;
+    }
+    .input_field_td textarea {
+        height: 120px;
+    }
+    .full_width_row {
+        padding: 10px 10px 0px;
+    }
+    .dominate_and_handmade_elaborate_gem_inner .image_col, .dominate_and_handmade_elaborate_gem_inner .text_col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .pamphlet_section .text_col,
+    .pamphlet_section .image_col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .manufactured_table .manufactured_row .manufactured_td:first-child {
+        width: 100%;
+    }
+    .manufactured_row,.manufactured_th, .manufactured_td{
+        display: block;
+        border: none;
+    }
+    .manufactured_th:last-child{
+        padding: 0;
+    }
+    .manufactured_table:last-child .manufactured_th,.manufactured_th, .manufactured_td {
+        padding: 5px 15px;
+    }
+    .manufactured_row:first-child {
+        border-bottom: 2px solid #0053B1;
+    }
+    .manufactured_row {
+        border-bottom: 1px solid #0053B1;
+    }
+    .manufactured_td p {
+        line-height: normal;
+    }
+}
+/*responsive css end*/
